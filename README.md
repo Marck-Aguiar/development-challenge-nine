@@ -1,65 +1,39 @@
-# Development challenge
+# MedCloud : Gerenciador de Pacientes
+![image](https://github.com/user-attachments/assets/5e1183d9-382f-428d-a5f5-e6d4c1b9b14e)
 
-![logo medcloud-03 white copy](https://user-images.githubusercontent.com/46347123/158176045-de9fefb0-35e2-4515-83ff-c132608aa870.png)
+## Descrição
+Este projeto é uma aplicação web (CRUD) com Landing Page e paginação para gerenciamento de dados de pacientes de atendimentos hospitalares.
 
-About Medcloud:
+## Conteudos
+- [Sobre](# :hammer: Sobre o projeto & Como utilizar)
+- [Tecnologias](#✅  Tecnologias usadas)
 
-We make exams and medical data management more flexible, secure and effective by accelerating the transition from clinics and hospitals to the cloud.
-The RIS and PACS systems have been practically the same for the past 25 years. Interoperability problems, high costs and a lack of understanding about the patient's access to his medical records.
+- # :hammer: Sobre o projeto & Como utilizar
 
-These points defined limits for the doctor-patient relationship and barriers to radiology workflows. We are revolutionizing this through a Care Coordination based solution that improves workflows for providers and integrates doctors and patients for a better experience.
+- `LogIn Page`: O projeto possuí uma tela de login ilustrativa, podendo ser implementada futuramente, para prosseguir basta clicar em "ENTRAR!".
+<img width="715" alt="Tela de Login" src="https://github.com/user-attachments/assets/7c2f4106-e503-4863-b8a5-5635a52c82cd">
+  
+- `Landing Page`: Na Landing Page você consegue acessar links relevantes para a aplicação, clcando em "Começar Agora!" será direcionado para à tela onde o gerenciamento dos dados dos pacientes acontece. Porém pode consultar informações sobre o projeto e outras informações e links que possam ser relevantes, colocados no projeto de maneira ilustrativa, além dos links de acesso à redes sociais do criador do projeto, por meio dos ícones e "Copyright". Existe também uma navbar que acompanha a página, que ao clicar em "Destaques" scrolla para a área "Destaques" da página. Também é possível ser alterado o tema da página para o "dark mode" clicando no ícone ao lado de "Entrar" na navbar.
+<img width="932" alt="Landing Page Inicio" src="https://github.com/user-attachments/assets/25971090-46cd-4312-a6ad-6f683ea7332c">
 
-Since our foundation, almost 10 years ago, we have prioritized excellence in the management of health data, structuring workflows of health professionals, clinics, laboratories and hospitals for assertive and quality diagnostics.
+- `DarkMode`: 
+  <img width="940" alt="Landing Page Inicio DarkMode" src="https://github.com/user-attachments/assets/cc7377fa-38d3-4fe9-9069-6134ce5fc939">
 
-We understand that behind each medical record there is a patient seeking to improve his health and the hope of family members for his well being. After all, we are all patients, and Medcloud's mission is to help you live longer and better. #PatientFirst
+- `Destaques`: Destaques ilustrativos sobre a aplicação, dentro da Landing Page :
+  <img width="749" alt="Landing Page Destaques" src="https://github.com/user-attachments/assets/0a13f7b9-04cd-47bb-9173-ef39a2f4cd40">
 
-Medcloud's challenge for Dev Full Stack.
+- `Perguntas`: Possíveis perguntas sobre a aplicação e suas respostas, para acessar as respostas basta clicar no ícone com a seta para cima , fragmento dentro da Landing Page :
+  <img width="890" alt="Landing Page FAQ" src="https://github.com/user-attachments/assets/3e29c63d-c29b-4479-8924-0305d37f8072">
 
-## Goal
+- `Gerenciador de pacientes`: Após clicar no botão "Começar Agora!" na Landing Page será possível chegar até a página de funcionamento principal da aplicação, onde é possível fazer a leitura, adicionar, editar e excluir dados de pacientes, havendo validações durante as inserções de dados. Também há o botão "Voltar", que permite o retorno à Landing Page.
+  <img width="591" alt="Gerenciador de Pacientes" src="https://github.com/user-attachments/assets/6d011ba4-4331-4966-b312-cc9960d061d4">
 
-- To develop a web application (CRUD) to manage patient registers (Patient's name, birth date, email and address).
 
-## Required
+#✅  Tecnologias usadas
 
-- You need to develop both the front-end and the back-end.
-- In the front-end you MUST use React.
-- In the back-end you MUST use Node.js.
-- The patient data should not be static  (You MUST use a cloud database or a local database).
-- Field validation (date, required fields, etc).
-
-## Extra Points
-
-- Cache the data in-browser.
-- Pagination.
-- Use Material UI - https://material-ui.com.
-- A cool design.
-- If you choose a local database: a docker environment of your project.
-
-## References
-
-- Intro to React: https://reactjs.org/tutorial/tutorial.html.
-
-## What will be evaluated:
-
-- Clean and organized code (naming, etc.)
-- Knowledge of patterns (PSRs, design patterns, SOLID)
-- Be consistent and know how to argue your choices
-- Present solutions you master
-- Data Modeling
-- Code maintainability
-- Error handling
-- Architecture (structuring thought before writing)
-- Affection in decoupling components (other layers, service, repository)
-
-According to the above criteria, we will evaluate your test in order to proceed to the technical interview. If you have not acceptably achieved what we are proposing above, we will not proceed with the process.
-
-## Delivery
-
-You MUST fork this repository to your own account and push you code to it. 
-When you finish it, you must send a email to cv@medcloud.com.br with your curriculum and your fork.
-
-Good luck! Any doubts, feel free to send an email to cv@medcloud.com.br.
-
-## For the day of the technical interview and code review
-
-On the date set by the recruiter, have your application running on your local machine to run the tests and to show us the points developed and possible questions. We will do a code review together with you as if you were already on our team, you will be able to explain what you thought, how you architected and how the project can evolve. Good luck!
+- `Node.js`
+- `React.js`
+- `MongoDB`
+- `Mongoose`
+- `Express`
+- `Material UI`
